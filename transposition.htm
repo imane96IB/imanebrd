@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<script type="text/javascript" src="Cryptographie%20par%20transposition%20-%20Transpositions%20rectangulaires_fichiers/commun.js"></script>
+<script type="text/javascript" src="Cryptographie%20par%20transposition%20-%20Transpositions%20rectangulaires_fichiers/colonne.js"></script>
+
+
+<div id="main">
+<a href="index.php">Retour</a>
+<h1>Transposition rectangulaire</h1>
+
+<br />  <br /> 
+<form name="transpo" method="get">
+<table align="center" border="0" cellpadding="1" cellspacing="2">
+  <tbody><tr>
+    <td bgcolor="#66FF99">Message</td>
+    <td bgcolor="#66FF99"><textarea name="entree" rows="8" cols="80"></textarea></td></tr>
+ <tr>
+    <td bgcolor="#66FF00">Clé</td>
+    <td bgcolor="#66FF00"><textarea name="cle" rows="1" cols="80"></textarea></td></tr>    
+  <tr bgcolor="#ffff99">
+    <td> <input onclick="document.transpo.sortie.value=chiffrer(document.transpo.entree.value,document.transpo.cle.value)" value="Chiffrer!" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <input onclick="document.transpo.entree.value=dechiffrer(document.transpo.sortie.value,document.transpo.cle.value)" value="Déchiffrer!" type="button">
+    </td><td>
+<input onclick="entree.value=''; sortie.value=''" value="Effacer" type="button"> 
+    </td></tr>
+  <tr>
+    <td bgcolor="#33CCFF">Message codé :</td>
+    <td bgcolor="#33CCFF"><textarea cols="80" name="sortie" rows="8"></textarea></td></tr></tbody></table>
+</form>
+
+
+
+     
+<p></p>
+<div align="right">
+</div>
+<p></p>
+
+
+</div>
+
+
+
+</div>
+
+</div>
+       
+       

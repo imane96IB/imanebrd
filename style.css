@@ -1,0 +1,55 @@
+body{
+	background-image: url('back.jpg');
+}
+
+#main {
+  max-width: 600px;
+  height: 700px;
+  margin: 0px auto;
+  margin-top: 1%;
+  text-align: center;
+  background-image: url('background1.jpg');
+  border:2px solid #08F;
+  padding-top: 50px;
+}
+input#submit { 
+  font: 200% 'Jenna Sue', arial, sans-serif; 
+  border: 0; 
+  width: 99px; 
+  margin: 20px 0px 0px 3px; 
+  height: 33px;
+  padding: 0 0 3px 0;
+  cursor: pointer; 
+  background: #1EC9F4; 
+  border-radius: 9px 9px 9px 9px; 
+  border-radius: 9px 9px 9px 9px; 
+  border-radius: 9px 9px 9px 9px; 
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+  color: #FFF;
+  border: solid 1px #0D8AA9;
+  background: #46C4DD;
+  background: -webkit-gradient(linear, left top, left bottom, from(#63CFDF), to(#17B2D9));
+  background: -moz-linear-gradient(top,  #63CFDF,  #17B2D9);
+  text-shadow: 1px 1px #178497;
+  text-align: center;
+  display: inline;
+}
+textarea{
+	
+	max-width: 300px;
+  height: 100px;
+  margin: 0px auto;
+  
+  
+  border:2px solid #08F;
+  
+}
+#main h1{
+	color: #008F07;
+
+}
+#main h2{
+	color:#C93646 ;
+}
